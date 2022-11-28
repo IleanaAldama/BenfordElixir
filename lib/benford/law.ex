@@ -7,7 +7,7 @@ defmodule Benford.Law do
     end)
   end
 
-  @doc ""
+  @doc "Given a list of numbers this function will calculate the dustribution of the first digit"
   def calculate([]) do
     :error
   end
